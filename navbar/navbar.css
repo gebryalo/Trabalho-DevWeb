@@ -1,3 +1,44 @@
-nav{
+#frete_gratis{
     display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    color: white;
+    height: 30px;
+    font-family: 'Inter';
+}
+
+#containner{
+    display: flex;
+    text-align: center;
+    align-items: center;
+
+
+}
+
+#logo {
+
+}
+
+#todas_camisas{
+    display:flex ;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Inter';
+    height: 30px;
+
+}
+
+#todas_camisas a {
+    text-decoration: none;
+    color: black;
+}
+
+#todas_camisas:hover {
+    text-decoration: none;
+    color: black;
+    background-color: rgb(224, 224, 224);
+    border-radius: 10px;
+    padding: 10px;
 }
