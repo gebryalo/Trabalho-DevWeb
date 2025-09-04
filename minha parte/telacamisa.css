@@ -1,0 +1,60 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+
+}
+@media(min-width:1200px){
+    .painel{
+        margin-right: 0;
+        margin-left: 10px;
+        padding:0;
+        width: 70%;
+        background-color:#3C77C4;
+        height: 20%;
+        border-radius: 25px;
+        margin-top: 3%;
+        justify-items: center;
+    }
+    .imagens,.imgum {
+        margin: 15px;
+        justify-content: center;
+        display: flex;
+        flex-wrap: nowrap;
+        width: 65%;
+        border-radius: 25px;
+    }
+    .imgdois {
+        margin: 1%;
+        justify-content: center;
+        flex-wrap:nowrap ;
+        width: 29%;
+        border-radius: 25px;
+    }
+    .modelo{        
+        width: 40%;
+        font-size: 40px;
+        margin-left: 80px   ; 
+        margin-right: 80px;  
+    }
+    .tamanhos_container{
+                display: flex;
+                flex-wrap: nowrap;
+                justify-content: center;
+        
+    }
+    .tamanhos {
+        border-radius: 15px;
+        width: 110px;
+        height: 50px;
+        background-color: rgb(160, 156, 156);
+        margin: 1%;
+        display: flex;
+        justify-items: center;
+        align-items: center;
+        justify-content: center;
+        margin-top: auto;
+        font-size: 80%;
+        
+    }
+}
