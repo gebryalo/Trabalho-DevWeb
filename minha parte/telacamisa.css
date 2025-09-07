@@ -4,45 +4,74 @@ body {
     display: flex;
 
 }
-@media(min-width:1200px){
-    .painel{
+
+@media(min-width:1200px) {
+    .painel {
         margin-right: 0;
         margin-left: 10px;
-        padding:0;
+        padding: 0;
         width: 70%;
-        background-color:#3C77C4;
+        background-color: #3C77C4;
         height: 20%;
         border-radius: 25px;
         margin-top: 3%;
         justify-items: center;
     }
-    .imagens,.imgum {
+
+    .imagens,
+    .imgum {
         margin: 15px;
         justify-content: center;
         display: flex;
         flex-wrap: nowrap;
         width: 65%;
         border-radius: 25px;
+        cursor: pointer;
     }
+
     .imgdois {
         margin: 1%;
         justify-content: center;
-        flex-wrap:nowrap ;
+        flex-wrap: nowrap;
         width: 29%;
         border-radius: 25px;
+        cursor: pointer;
     }
-    .modelo{        
+
+    .modelo {
+        display: flex;
+        flex-wrap: wrap;
         width: 40%;
         font-size: 40px;
-        margin-left: 80px   ; 
-        margin-right: 80px;  
+        margin-left: 80px;
+        margin-right: 80px;
+        align-items: center;
+        justify-items: left;
     }
-    .tamanhos_container{
-                display: flex;
-                flex-wrap: nowrap;
-                justify-content: center;
-        
+
+    .tamanhos_container {
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: center;
+
     }
+    .guia_tamanhos{
+        display: flex;
+        justify-content: center;
+        justify-items: center;
+        align-items: center;
+        font-size: 20px;
+        margin-top: 10%;
+        margin-bottom: 10px;
+        margin-left: 25%;
+        cursor: pointer;
+    }
+    .guia_tamanhos img{
+        width: 30px;
+        height: 30px;
+        cursor: pointer;
+    }
+
     .tamanhos {
         border-radius: 15px;
         width: 110px;
@@ -55,6 +84,117 @@ body {
         justify-content: center;
         margin-top: auto;
         font-size: 80%;
-        
+        cursor: pointer;
+
     }
+
+    .texto_valores>h5 {
+        margin-top: -30px;
+        border-bottom: 1px solid #000;
+        width: 50%;
+    }
+
+    .texto_valores>p {
+        margin-top: -30px;
+        font-size: 40px;
+    }
+
+    .carrinho_compra>button {
+        border: none;
+        background: none;
+        box-shadow: none;
+        color: white;
+        font-size: 20px;
+        cursor: pointer;
+    }
+
+    .carrinho_compra {
+        margin-top: -20px;
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: left;
+        padding-left: 5px;
+        width: 80%;
+        height: 50px;
+        background-color: black;
+        border-radius: 8px;
+        cursor: pointer;
+    }
+
+    .carrinhoimg {
+        width: 30px;
+        height: 30px;
+        margin-left: 50px;
+        margin-top: 10px;
+        padding-right: 5px;
+    }
+
+    .salvar {
+        margin-top: -10px;
+        margin-left: 30px;
+        display: flex;
+        flex-wrap: wrap-no wrap;
+    }
+
+    .acoes {
+        display: flex;
+        align-items: center;
+        /* Alinha verticalmente */
+        gap: 20px;
+        /* Espaço entre os elementos */
+    }
+
+    .salvar img {
+        width: 80px;
+        /* Altere para o tamanho desejado */
+        height: 40px;
+        cursor: pointer;
+    }
+     .info{
+        
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .personalizar{
+        border-radius: 15px;
+        font-size: 15px;
+        background-color:black;
+        color:white;
+        margin-top: 10px;
+        width: 150px;
+        height: 5%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-right:30px; 
+        cursor: pointer;
+    }
+   
+    .personalizar img{
+        width: 40px;
+        height: 40px;
+        margin-right: 05px;
+        margin-left: 5px;
+        display: flex;
+        flex-wrap: wrap;
+
+    }
+    .fretes{
+        margin-top: 30px;
+        margin-left: 80px;
+        align-items: center;
+        display: flex;
+        font-size: 20px;
+        cursor:  pointer;
+    }
+    .fretes img{
+        width: 30px;
+        height: 30px;
+        margin-left: 10px;
+        cursor: pointer;
+        
+}
 }
