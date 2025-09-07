@@ -1,5 +1,10 @@
+body{
+    margin: 0;
+}
+
 nav{
     position: static;
+
 }
 
 #frete_gratis{
@@ -19,23 +24,22 @@ nav{
     height: 80px;
 }
 
-#logo {
-
-}
-
 #todas_camisas{
+    position: relative;
     display:flex ;
     text-align: center;
     align-items: center;
     justify-content: center;
     font-family: 'Inter';
     padding: 15px;
-
+    padding-bottom: 0px;
+    padding-top: 0px;
 }
 
 #todas_camisas a {
     text-decoration: none;
     color: black;
+    
 }
 
 #todas_camisas:hover {
@@ -44,28 +48,25 @@ nav{
     background-color: rgb(224, 224, 224);
     border-radius: 10px;
     padding: 15px;
+    padding-bottom: 0px;
+    padding-top: 0px;
 }
 
 #categorias{
-    display:flex ;
-    text-align: center;
-    align-items: center;
-    justify-content: center;
+    display:grid ;
+    grid-template-columns: 240px 120px 120px 120px 120px;
     font-family: 'Inter';
-   
 }
 
 #categorias a{
     text-decoration: none;
     color: black;
-    padding: 15px;
 
 }
 
 #categorias a:hover {
     text-decoration: none;
     color: black;
-    padding: 15px;
     background-color: rgb(224, 224, 224);
     border-radius: 10px;
 }
@@ -123,4 +124,55 @@ nav{
 
 
     margin-top: -10px;
+}
+
+#submenu_drop{
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: max-content;
+    background-color: white;
+    height: 0;
+    overflow: hidden;
+    border-radius: 5px;
+    border-color: black;
+}
+
+#todas_camisas:hover #submenu_drop {
+    height: auto;
+    overflow: visible;
+}
+
+#submenu{
+    display: grid;
+    grid-template-columns: 80px 80px 80px 80px 80px ;
+    background-color: white;
+    text-align: left;
+}
+
+#marcas{
+    font-family: 'Inter';
+}
+#marcas a p {
+    color: black;
+    margin-top: -15px;
+}
+
+#sexo{
+    font-family: 'Inter';
+    display: block;
+}
+#sexo a p {
+    color: black;
+    margin-top: -15px;
+}
+
+#outlet{
+    font-family: 'Inter';
+    display: block;
+}
+
+#outlet a p {
+    color: black;
+    margin-top: -15px;
 }
