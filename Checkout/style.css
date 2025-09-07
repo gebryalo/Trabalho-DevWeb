@@ -1,0 +1,79 @@
+#container{
+    display: flex;
+    align-items: center;
+
+}
+
+#progresso{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(217, 217, 217);
+    border-radius: 5px;
+    padding: 15px;
+}
+
+#ender{
+    display: flex;
+    align-items: center;
+    background-color: rgb(217, 217, 217);
+    border-radius: 5px;
+}
+
+#metenv{
+    display: flex;
+    align-items: center;
+    background-color: rgb(217, 217, 217);
+    border-radius: 5px;
+}
+#resumo{
+    display: grid;
+    background-color: rgb(217, 217, 217);
+    border-radius: 5px;
+}
+
+.button {
+    background-color: rgb(60, 119, 196); 
+    color: white; 
+    border-radius: 6px;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease-in-out, transform 0.2s ease;
+}
+
+.button:hover {
+    background-color: rgb(100, 149, 237);
+    transform: scale(1.05);
+}
+
+.pr{
+    text-align: center;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: lightgray;
+    color: white;
+}
+
+.foi{
+    background-color: rgb(60, 119, 196);
+    color: white;
+}
+
+.atual{
+    background-color: rgb(100, 149, 237);
+    color: white;
+}
+
+.falta{
+    background-color: transparent;
+    color: black;
+}
+
+.barra{
+    flex: 1;
+    height: 3px;
+    background-color: black;
+    margin: 0 5px;
+}
