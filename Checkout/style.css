@@ -1,40 +1,42 @@
-#container{
-    display: flex;
-    align-items: center;
-
+.logo {
+    width: 296px;
+    height: 296px;
+    margin-left: -150px;
 }
 
-#progresso{
+#progresso {
     display: flex;
     align-items: center;
     justify-content: space-between;
     background-color: rgb(217, 217, 217);
     border-radius: 5px;
     padding: 15px;
+    
 }
 
-#ender{
+#ender {
     display: flex;
     align-items: center;
     background-color: rgb(217, 217, 217);
     border-radius: 5px;
 }
 
-#metenv{
+#metenv {
     display: flex;
     align-items: center;
     background-color: rgb(217, 217, 217);
     border-radius: 5px;
 }
-#resumo{
+
+#resumo {
     display: grid;
     background-color: rgb(217, 217, 217);
     border-radius: 5px;
 }
 
 .button {
-    background-color: rgb(60, 119, 196); 
-    color: white; 
+    background-color: rgb(60, 119, 196);
+    color: white;
     border-radius: 6px;
     padding: 10px 20px;
     border: none;
@@ -48,7 +50,7 @@
     transform: scale(1.05);
 }
 
-.pr{
+.pr {
     text-align: center;
     padding: 10px 20px;
     border-radius: 5px;
@@ -56,24 +58,93 @@
     color: white;
 }
 
-.foi{
+.foi {
     background-color: rgb(60, 119, 196);
     color: white;
 }
 
-.atual{
+.atual {
     background-color: rgb(100, 149, 237);
     color: white;
 }
 
-.falta{
+.falta {
     background-color: transparent;
     color: black;
 }
 
-.barra{
+.barra {
     flex: 1;
     height: 3px;
     background-color: black;
     margin: 0 5px;
+}
+
+/* A PARTIR DAQ É FOOTER */
+
+#redes_sociais {
+    display: grid;
+    grid-template-columns: 20% 100px 40px 100px 40px 100px 20%;
+    background-color: #3C77C4;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 200px;
+
+}
+
+#redes_sociais a .redes {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+#redes_sociais .redes {
+    background-color: white;
+    border-radius: 50%;
+    height: 100px;
+}
+
+#informacoes {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    font-family: 'inter';
+    background-color: #333333;
+    color: white;
+}
+
+#informacoes .informacao a {
+    text-decoration: none;
+    color: white;
+}
+
+.newsletter input {
+    width: 300px;
+    border-radius: 5px;
+    background-color: rgb(197, 197, 197);
+}
+
+.newsletter button {
+    border-radius: 5px;
+}
+
+.pagamento {
+    display: grid;
+    grid-template-columns: 20% 10% 10% 10% 10% 10% 10%;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+    background-color: #333333;
+    color: white;
+}
+
+.pagamento h4 {
+    font-size: 20px;
+}
+
+#linha {
+    background-color: white;
+    width: 100000px;
+    height: 2px;
 }
