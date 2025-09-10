@@ -1,30 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
     <style>
-    body{
-        width: 50%;
-    }
-    
-    .costas{
-    display: flex;
-    
-    justify-content: center;
-    align-content: center;
-
+        .modal {
+  position: fixed;
+  top: 0; left: 0;
+  width: 100vw; height: 100vh;
+  background: rgba(0,0,0,0.5);
+  display: none;
+  justify-content: center;
+  align-items: center;
+  z-index: 999;
+}
+#modal-toggle:checked + .modal {
+  display: flex;
+}
+.modal-content {
+  background: #fff;
+  padding: 30px;
+  border-radius: 10px;
+  min-width: 300px;
+  min-height: 150px;
+  position: relative;
+}
+.close-btn {
+  position: absolute;
+  top: 10px; right: 15px;
+  font-size: 30px;
+  cursor: pointer;
+  color: #333;
 }
     </style>
-    <title>Tela Personalização</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
 </head>
 <body>
-    <div class="body_personaliza">
-        <div class="costas">
-            <img src="imagens/Camisapersonalizada.png" alt="Camisa personalizada com nome e número">
-        </div>
-        <div class="personalizacao">
+    <!-- Botão para abrir o modal -->
+<label for="modal-toggle" class="personalizar">Personalização</label>
+<input type="checkbox" id="modal-toggle" style="display:none;">
 
-        </div>
-    </div>
+<!-- Modal -->
+<div class="modal">
+  <div class="modal-content">
+    <label for="modal-toggle" class="close-btn">&times;</label>
+    <h2>Personalização</h2>
+    <p>Conteúdo da tela menor aqui.</p>
+  </div>
+</div>
 </body>
 </html>
