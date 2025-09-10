@@ -34,10 +34,17 @@
     max-height: auto;
 }
 
+.input{
+    
+}
+
 .resumoch {
     background-color: rgb(217, 217, 217);
     border-radius: 5px;
     padding: 20px;
+    width: 200%;
+    height: auto;
+    margin-left: 40px;
 }
 
 .resumoch h3 {
@@ -78,6 +85,7 @@
 .checkout-left {
     flex: 1 1 65%;
     min-width: 300px;
+    margin-left: 20px;
 }
 
 .checkout-right {
@@ -85,7 +93,24 @@
     min-width: 250px;
 }
 
-.button {
+.irpag {
+    background-color: rgb(60, 119, 196);
+    color: white;
+    border-radius: 6px;
+    padding: 10px 317px;
+    margin-left: 40px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease-in-out, transform 0.2s ease;
+}
+
+.irpag:hover {
+    background-color: rgb(100, 149, 237);
+    transform: scale(1.05);
+}
+
+.addendereco {
     background-color: rgb(60, 119, 196);
     color: white;
     border-radius: 6px;
@@ -94,9 +119,11 @@
     cursor: pointer;
     font-size: 16px;
     transition: background-color 0.3s ease-in-out, transform 0.2s ease;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
-.button:hover {
+.addendereco:hover {
     background-color: rgb(100, 149, 237);
     transform: scale(1.05);
 }
