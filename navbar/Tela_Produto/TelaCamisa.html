@@ -23,9 +23,23 @@
         <h2>Camiseta FURIA | Adidas Preta</h2>
         <p>Tamanhos</p>
             <div class="guia_tamanhos">
-                <img src="imagens/medicao (2).png" alt="">
-                <p>Guia de tamanhos</p>
-            </div>
+    <label for="guia-modal-toggle" style="cursor:pointer;">
+        
+        <p>Guia de tamanhos</p>
+        <img src="imagens/medicao (2).png" alt="">
+    </label>
+    <input type="checkbox" id="guia-modal-toggle" style="display:none;">
+
+    <!-- Modal Guia de Tamanhos -->
+    <div class="modal_guia">
+        <div class="modal-content">
+            <label for="guia-modal-toggle" class="close-btn">&times;</label>
+            <h2>Guia de Tamanhos</h2>
+            <img src="imagens/Captura de tela 2025-09-10 232028.png" alt="Tabela de medidas" style="width:100%;max-width:700px;">
+            <p>Consulte as medidas para escolher o tamanho ideal.</p>
+        </div>
+    </div>
+</div>
             <div class="tamanhos_container">
                 <div class="tamanhos"><p class="text_modelo"></p> S</div>   
                 <div class="tamanhos"><p class="text_modelo"></p> M</div>
@@ -59,13 +73,30 @@
                         <div class="modal">
                         <div class="modal-content">
                             <label for="modal-toggle" class="close-btn">&times;</label>
-                            <h2>Personalização</h2>
-                            <div div class="img_personalizacao">
-                                <img src="imagens/Camisapersonalizada.png" alt="">
-                            </div> 
-                            <div class="Personalizacao">
-                                
-                            </div>
+                           
+                                <div div class="img_personalizacao">
+                                    <img src="imagens/Camisapersonalizada.png" alt="">
+                                    <div class="Personalizacaocontainer">
+                                        <div class="Personalizacao">
+                                        <p>Personalize do seu jeito</p>
+                                        </div> 
+                                        <div class="Boxe_Personalizacao">
+                                            <img src="imagens/7.png"">  
+                                            <p>Número+Nome</p> 
+                                        </div>
+                                        <div class="preencher">
+                                            <div class="pnome">
+                                                <p>Adicione seu Nome(+R$34,99)</p>
+                                                <input type="text" placeholder="Digite seu nome" value="VIEIRA">
+                                            </div>
+                                            <div class="pnum">
+                                                <p>Adicione seu Número(+R$34,99)</p>
+                                                <input type="text" placeholder="Digite seu nome" value="7">
+                                            </div>
+                                        </div>
+                                        
+                                </div>
+                                </div> 
                         </div>
                         </div>
                 </div>
