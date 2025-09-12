@@ -1,4 +1,4 @@
-*{
+* {
     font-family: "inter-tight-variable", sans-serif;
     font-variation-settings: "wght" 400;
 }
@@ -16,27 +16,16 @@
     background-color: rgb(217, 217, 217);
     border-radius: 5px;
     padding: 15px;
-    
 }
 
-.ender {
+.formas {
     display: flex;
-    align-items: center;
+    align-items: right;
     background-color: rgb(217, 217, 217);
     border-radius: 5px;
     padding: 15px;
     max-width: 900px;
-}
-
-.metenv {
-    display: flex;
-    align-items: center;
-    background-color: rgb(217, 217, 217);
-    border-radius: 5px;
-    margin-bottom: 5px;
-    padding: 20px;
-    max-width: 900px;
-    max-height: auto;
+    margin-top: 10px;
 }
 
 .resumoch {
@@ -98,7 +87,7 @@
     background-color: rgb(60, 119, 196);
     color: white;
     border-radius: 6px;
-    padding: 10px 317px;
+    padding: 10px 330px;
     margin-left: 40px;
     border: none;
     cursor: pointer;
@@ -107,24 +96,6 @@
 }
 
 .irpag:hover {
-    background-color: rgb(100, 149, 237);
-    transform: scale(1.05);
-}
-
-.addendereco {
-    background-color: rgb(60, 119, 196);
-    color: white;
-    border-radius: 6px;
-    padding: 10px 20px;
-    border: none;
-    cursor: pointer;
-    font-size: 16px;
-    transition: background-color 0.3s ease-in-out, transform 0.2s ease;
-    margin-top: 10px;
-    margin-bottom: 10px;
-}
-
-.addendereco:hover {
     background-color: rgb(100, 149, 237);
     transform: scale(1.05);
 }
