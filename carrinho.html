@@ -1,163 +1,112 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-  <meta charset="UTF-8">
-  <title>Carrinho</title>
-  <style>
-    body {
-      width: 1920px;
-      height: 2200px;
-      margin: 0;
-      font-family: Arial, Helvetica, sans-serif;
-      background-color: #fff;
-    }
+    <meta charset="UTF-8">
+    <title>Carrinho</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #fff;
+            margin: 0;
+            padding: 0;
+        }
 
-   
-    .logo {
-      position: absolute;
-      top: 20px;     
-      left: 30px;     
-      width: 180px;   
-    }
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 50px;
+            border-bottom: 1px solid #ccc;
+        }
 
- 
-    .hero {
-      height: 100vh;              
-      display: flex;
-      justify-content: center;
-      align-items: center;
-    }
+        .logo-novo {
+            width: 180px;
+        }
 
-    .container {
-      transform: translateY(-150px); 
-      text-align: center;
-    }
+        .user-profile {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            font-size: 14px;
+            color: #555;
+            text-align: right;
+        }
 
-    h1 {
-      font-size: 42px;
-      font-weight: bold;
-      margin-bottom: 20px;
-    }
+        .user-profile img {
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+        }
 
-    p {
-      font-size: 20px;
-      color: #333;
-      margin-bottom: 40px;
-    }
+        .user-profile .name {
+            font-weight: bold;
+        }
+        /* --- Fim dos estilos do perfil do usuário --- */
 
-    button {
-      padding: 15px 40px;
-      font-size: 20px;
-      border: 2px solid #000;
-      border-radius: 30px;
-      background-color: #eaf6f6;
-      cursor: pointer;
-      transition: 0.3s;
-    }
+        .hero {
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
 
-    button:hover {
-      background-color: #d3eded;
-    }
-  </style>
+        .container {
+            transform: translateY(-150px);
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 42px;
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+
+        p {
+            font-size: 20px;
+            color: #333;
+            margin-bottom: 40px;
+        }
+
+        button {
+            padding: 15px 40px;
+            font-size: 20px;
+            border: 2px solid #000;
+            border-radius: 30px;
+            background-color: #eaf6f6;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+
+        button:hover {
+            background-color: #d3eded;
+        }
+    </style>
 </head>
 <body>
 
-  <img src="imagens/logo.png" alt="The Shirt Club Logo" class="logo-novo">
+    <header class="header">
+        <img src="imagens/logo.png" alt="The Shirt Club Logo" class="logo-novo">
+        <div class="user-profile">
+            <div>
+                <span class="name">Olá Fulano</span>
+                <br>
+                <span>Minha conta</span>
+            </div>
+            <img src="perfil.png" alt="User Profile Picture">
+        </div>
+    </header>
 
-
-  <div class="hero">
-    <div class="container">
-      <h1>SEU CARRINHO ESTÁ VAZIO</h1>
-      <p>Navegue pelas categorias da loja ou faça uma busca pelo seu produto.</p>
-      <button>Voltar para o site</button>
+    <div class="hero">
+        <div class="container">
+            <h1>SEU CARRINHO ESTÁ VAZIO</h1>
+            <p>Navegue pelas categorias da loja ou faça uma busca pelo seu produto.</p>
+            <button>Voltar para o site</button>
+        </div>
     </div>
-  </div>
 
+    <div style="height: 1200px; background:#f9f9f9;">
+        </div>
 
-  <div style="height: 1200px; background:#f9f9f9;">
- 
-  </div>
-</body>
-</html>
-<!DOCTYPE html>
-<html lang="pt-BR">
-<head>
-  <meta charset="UTF-8">
-  <title>Carrinho</title>
-  <style>
-    body {
-      width: 1920px;
-      height: 2200px;
-      margin: 0;
-      font-family: Arial, Helvetica, sans-serif;
-      background-color: #fff;
-    }
-
-   
-    .logo {
-      position: absolute;
-      top: 20px;     
-      left: 30px;     
-      width: 180px;   
-    }
-
- 
-    .hero {
-      height: 100vh;              
-      display: flex;
-      justify-content: center;
-      align-items: center;
-    }
-
-    .container {
-      transform: translateY(-150px); 
-      text-align: center;
-    }
-
-    h1 {
-      font-size: 42px;
-      font-weight: bold;
-      margin-bottom: 20px;
-    }
-
-    p {
-      font-size: 20px;
-      color: #333;
-      margin-bottom: 40px;
-    }
-
-    button {
-      padding: 15px 40px;
-      font-size: 20px;
-      border: 2px solid #000;
-      border-radius: 30px;
-      background-color: #eaf6f6;
-      cursor: pointer;
-      transition: 0.3s;
-    }
-
-    button:hover {
-      background-color: #d3eded;
-    }
-  </style>
-</head>
-<body>
-
-  <img src="imagens/logo.png" alt="The Shirt Club Logo" class="logo-novo">
-
-
-  <div class="hero">
-    <div class="container">
-      <h1>SEU CARRINHO ESTÁ VAZIO</h1>
-      <p>Navegue pelas categorias da loja ou faça uma busca pelo seu produto.</p>
-      <button>Voltar para o site</button>
-    </div>
-  </div>
-
-
-  <div style="height: 1200px; background:#f9f9f9;">
- 
-  </div>
 </body>
 </html>
 
