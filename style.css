@@ -1,0 +1,331 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #ffffff; /* Fundo principal */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 2200px; /* Altura mínima do site */
+}
+
+
+.logo-novo {
+    height: 200px; 
+    justify-content: left;
+    padding-right: 1200px;
+}
+
+.container-principal {
+    display: flex;
+    gap: 30px; /* Espaçamento entre as seções */
+    width: 100%;
+    max-width: 1500px; /* Largura máxima do conteúdo */
+    padding: 0 40px; /* Padding nas laterais */
+    margin-bottom: 40px;
+}
+
+.secao-revisao {
+    flex: 2;
+    background-color: #D9D9D9;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    border: 1px solid #e0e0e0;
+}
+
+.titulo-revisao-cabecalho {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #D9D9D9;
+}
+
+.titulo-revisao-cabecalho .icone {
+    width: 28px; /* Ícone um pouco maior */
+    height: 28px;
+    margin-right: 12px;
+}
+
+.titulo-revisao-cabecalho h3 {
+    margin: 0;
+    font-size: 1.3rem;
+    font-weight: 500;
+    color: #333;
+}
+
+.grupo-cartoes {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-bottom: 30px;
+}
+
+.cartao {
+    flex: 1;
+    min-width: 280px;
+    background-color: #e8e8e8; /* Mais cinza que o fundo principal */
+    border: 1px solid #d0d0d0; /* Borda ajustada */
+    border-radius: 6px;
+    padding: 20px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.03);
+}
+
+.cabecalho-cartao {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.icone-cartao {
+    width: 24px; /* Ícone um pouco maior */
+    height: 24px;
+    margin-right: 10px;
+    filter: none; /* Remover filtro para manter a cor original das imagens */
+    opacity: 1; /* Remover opacidade */
+}
+
+.cabecalho-cartao h4 {
+    margin: 0;
+    font-size: 1.05rem;
+    font-weight: 700;
+    color: #444;
+}
+
+.cartao p {
+    margin: 4px 0;
+    font-size: 0.9rem;
+    color: #555;
+    line-height: 1.5;
+}
+
+.cartao p strong {
+    font-weight: 600;
+    color: #333;
+}
+
+.container-tabela-produtos {
+    width: 100%;
+    overflow-x: auto;
+    margin-bottom: 30px;
+    border: 1px solid #e0e0e0;
+    border-radius: 6px;
+    overflow: hidden;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 15px 20px;
+    text-align: left;
+    border-bottom: 1px solid #f0f0f0;
+}
+
+th {
+    background-color: #f8f8f8;
+    font-size: 0.9rem;
+    font-weight: 500;
+    color: #666;
+    text-transform: uppercase;
+}
+
+td {
+    background-color: #fff;
+    font-size: 0.95rem;
+    color: #333;
+}
+
+tbody tr:last-child td {
+    border-bottom: none;
+}
+
+.item-produto {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.imagem-produto {
+    width: 80px;
+    height: 80px;
+    border-radius: 4px;
+    border: 1px solid #D9D9D9;
+    object-fit: contain;
+}
+
+.detalhes-produto p {
+    margin: 0;
+    font-size: 0.95rem;
+    color: #333;
+}
+
+.texto-pequeno {
+    font-size: 0.85rem;
+    color: #888;
+}
+
+.voltar-pagamento {
+    display: inline-block;
+    font-size: 0.95rem;
+    color: #007bff;
+    text-decoration: none;
+    margin-top: 15px;
+    padding: 5px 0;
+    transition: color 0.2s ease;
+}
+
+.voltar-pagamento:hover {
+    color: #0056b3;
+}
+
+.secao-resumo {
+    flex: 1;
+    background-color: #D9D9D9;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    border: 1px solid #e0e0e0;
+    min-width: 350px; /* Largura mínima para o resumo */
+    height: fit-content;
+}
+
+.secao-resumo h3 {
+    margin: 0 0 25px;
+    font-size: 1.3rem;
+    font-weight: 700;
+    color: #333;
+    border-bottom: 1px solid #e7e7e7;
+    padding-bottom: 12px;
+}
+
+.linha-resumo {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 12px;
+    font-size: 1rem;
+    color: #555;
+}
+
+.total-resumo {
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.3rem;
+    font-weight: 700;
+    color: #000;
+    margin-top: 25px;
+    padding-top: 18px;
+    border-top: 1px solid #ccc;
+}
+
+.opcoes-pagamento {
+    background-color: #e8e8e8; /* Mais cinza que o fundo principal */
+    border: 1px solid #d0d0d0; /* Borda ajustada */
+    border-radius: 6px;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.opcoes-pagamento p {
+    margin: 0;
+    line-height: 1.4;
+    font-size: 0.95rem;
+    color: #555;
+}
+
+.preco-grande {
+    font-size: 1.6rem;
+    font-weight: 700;
+    color: #333;
+    margin: 8px 0 5px;
+}
+
+.container-checkbox {
+    display: flex;
+    align-items: flex-start;
+    margin: 30px 0;
+}
+
+.container-checkbox input[type="checkbox"] {
+    margin-right: 12px;
+    min-width: 18px;
+    min-height: 18px;
+    margin-top: 3px;
+}
+
+.container-checkbox label {
+    font-size: 1rem;
+    color: #666;
+    line-height: 1.5;
+}
+
+.botao-finalizar {
+    width: 100%;
+    padding: 16px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.15rem;
+    font-weight: 700;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: background-color 0.3s ease;
+}
+
+.botao-finalizar:hover {
+    background-color: #45a049;
+}
+
+/* Responsividade básica para telas menores */
+@media (max-width: 1200px) {
+    .container-principal {
+        flex-direction: column;
+        max-width: 90%; /* Ajusta a largura para telas menores */
+    }
+
+    .cabecalho-conteudo-novo {
+        padding: 0 20px;
+    }
+
+    .grupo-cartoes {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .cartao {
+        min-width: unset;
+        width: 100%;
+    }
+
+    .secao-revisao, .secao-resumo {
+        padding: 20px;
+    }
+
+    .secao-resumo {
+        min-width: unset;
+        width: 100%;
+    }
+}
+
+@media (max-width: 768px) {
+    .cabecalho-conteudo-novo {
+        justify-content: center; 
+    }
+    .logo-novo {
+        height: 50px;
+    }
+    .titulo-revisao-cabecalho h3 {
+        font-size: 1.1rem;
+    }
+    .cabecalho-cartao h4 {
+        font-size: 0.95rem;
+    }
+    .botao-finalizar {
+        font-size: 1rem;
+        padding: 14px;
+    }
+}
