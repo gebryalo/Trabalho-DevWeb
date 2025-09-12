@@ -191,14 +191,14 @@ nav{
 .carousel.auto {
   position: relative;
   width: 100%;
-  height: 100vh;
+  height: 40vh;
   margin: 0;
   overflow: hidden;
 }
 
 .carousel.auto .carousel-inner {
   display: flex;
-  width: 300%;
+  width: 100%;
   height: 100%;
   animation: slide 12s infinite;
 }
@@ -292,4 +292,57 @@ nav{
     background-color: white;
     width: 100000px;
     height: 2px;
+}
+
+.logo_das_marcas {
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+#titulo_dos_mais_vendidos {
+    font-size: 20px;
+    font-family: "inter";
+}
+
+.barra_de_venda{
+    display: grid;
+    grid-template-columns: 18% 2% 18% 2% 18% 2% 18% 2% 18%;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+    font-family: 'inter';
+}
+.clasificado{
+    border: 1px solid #000;
+    border-radius: 25px;
+    
+
+}
+
+.clasificado svg {
+    height: 370px;
+    width: 300px;
+}
+.clasificado h5 {
+    padding-left: 20px;
+}
+
+#button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+#botao_ver_mais{
+    height: 70px;
+    width: 140px;
+    background-color: #ffffff;
+    font-family: 'inter';
+    font-size: 20px;
+    border-radius: 8px;
+    border: 1px solid #333333;
 }
