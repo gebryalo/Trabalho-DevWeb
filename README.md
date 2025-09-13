@@ -29,7 +29,7 @@ Autores
   - Henrique dos Santos - Páginas de Checkout
   - Otávio de Matos - Páginas de Política de Privacidade e Termos e Condições
   - Gabriel Silva = Página de Trocas e Devoluções
-  - Kauan Galinski - Página de "Quem Somos"
+  - Kauan Galiski - Página de "Quem Somos"
 
 Link de acesso ao projeto no Figma:
 https://www.figma.com/design/oNoqVPAr6ixYL5MFKFalnL/The-Shirt-Club?node-id=0-1&p=f&t=4jf6eUl5aeaoYjFs-0
