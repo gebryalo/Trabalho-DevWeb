@@ -1,0 +1,32 @@
+.politicas-container {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px 25px;
+    line-height: 1.7;
+    color: #333;
+    font-family: Arial, sans-serif;
+}
+
+.politicas-container h1 {
+    text-align: center;
+    color: #000000;
+    font-weight: bold;
+    font-size: 2.5em;
+    margin-bottom: 40px;
+}
+
+.politicas-container h2 {
+    color: #000;
+    font-weight: bold;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.politicas-container ul {
+    margin-bottom: 25px;
+    padding-left: 25px;
+}
+
+.politicas-container p {
+    margin-bottom: 20px;
+}
